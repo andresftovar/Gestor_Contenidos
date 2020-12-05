@@ -1,0 +1,21 @@
+.footer {
+    align-items: center;
+    background-color: #FFFFFF;
+    display: flex;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    box-sizing: border-box;
+  
+    a {
+      color: #333333;
+      cursor: pointer;
+      padding-left: 30px;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }

@@ -1,0 +1,61 @@
+.menu {
+    /*width: 0.2rem;
+    height: 0.7rem;*/
+    background: #f5f5f5;
+    position: relative;
+    top: 50%;  
+    left: 1%;
+    color: black;
+    text-align: center;
+    transition: left 0.7s;
+}
+
+.checkbox:checked ~ .menu {
+    left: 20%;
+    top: 50%;   
+}
+
+.left-panel {
+    width: 20%;
+    height: 100%;
+    /*safari*/
+    background: #f5f5f5;
+    /*opera*/
+    background: #f5f5f5;
+    /*estandar*/
+    background: #f5f5f5;
+    position: relative;
+    top: 50%;
+    left: -30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    transition: left 0.4s;
+}
+
+.checkbox:checked ~ .left-panel {
+    left: 0;
+}
+
+.checkbox {
+    display: none;
+}
+
+ul a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.lista {
+    list-style: none;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 0.5rem;
+    margin: 1rem 0;
+}
+
+.lista:hover {
+    color: blue;
+    border: solid white;
+    border-width: 0 0.1rem;
+}
